@@ -1,0 +1,37 @@
+---
+product: "1.0.0"
+info:
+  name: "banking-services"
+  title: "Banking Services"
+  version: "1.0.1"
+visibility:
+  view:
+    enabled: true
+    type: "public"
+    tags: []
+    orgs: []
+  subscribe:
+    enabled: true
+    type: "authenticated"
+    tags: []
+    orgs: []
+apis:
+  branches:
+    $ref: "branches_1.0.0.yaml"
+plans:
+  plan1:
+    title: "plan1"
+    description: "Default Plan"
+    approval: false
+    rate-limit:
+      hard-limit: true
+      value: "100/10hour"
+    apis:
+      branches:
+        operations:
+        - path: "/details"
+          operation: "get"
+          rate-limits:
+            rate-limit-1:
+              hard-limit: false
+              value: "10/1minute"
