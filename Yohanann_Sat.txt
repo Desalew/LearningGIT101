@@ -1,1 +1,30 @@
-test code push
+{
+  "took": 0,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 1,
+      "relation": "eq"
+    },
+    "max_score": 1,
+    "hits": [
+      {
+        "_index": "destinations",
+        "_id": "1",
+        "_score": 1,
+        "_source": {
+          "doc": {
+            "name": "ET Airelines",
+            "country": "Ethiopia"
+          }
+        }
+      }
+    ]
+  }
+}
