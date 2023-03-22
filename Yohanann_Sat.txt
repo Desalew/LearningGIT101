@@ -1,4 +1,4 @@
-{ for the pull test
+{ for the pull test and revert the fork local code
   "took": 0,
   "timed_out": false,
   "_shards": {
