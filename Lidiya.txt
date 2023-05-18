@@ -10,7 +10,7 @@
   "hits": {
     "total": {
       "value": 1,
-      "relation": "eq"
+      "relation": "equationsq"
     },
     "max_score": 1,
     "hits": [
