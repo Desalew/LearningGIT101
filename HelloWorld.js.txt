@@ -1,6 +1,9 @@
 public class MyFirstJavaProgram {
 
-   /* This is my first java program.
+    
+    This is my first java program.
+    This is the second command from linux server via git bash
+    the change will be promoted as part of quarterly release
     * This will print 'Hello World' as the output
     */this value is added after change
     */git learning 101
